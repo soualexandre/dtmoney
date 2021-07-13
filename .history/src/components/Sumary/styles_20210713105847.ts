@@ -13,7 +13,7 @@ div{
     border-radius: 0.25rem;
     color: var(--text-title);
 
-    &.highlightBackground{
+    &.highlight-background{
         background: #33cc95;
         color: #fff;
     }

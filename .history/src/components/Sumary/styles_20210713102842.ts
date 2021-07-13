@@ -7,29 +7,21 @@ export const Container = styled.div`
     gap: 2rem;
     margin-top: -10rem;
 
-div{
-    background: var(--shape);
-    padding: 1.5rem;
-    border-radius: 0.25rem;
-    color: var(--text-title);
+    div{
+        background: var(--shape);
+        padding: 1.5rem;
+        border-radius: 0.25rem;
+        color: var(--text-title);
 
-    &.highlightBackground{
-        background: #33cc95;
-        color: #fff;
     }
     header{
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
- 
     strong{
-        display: block;
         margin-top: 1rem;
         font-size: 2rem;
         line-height: 3rem;
-        font-weight: 500;
     }
-  
-}
 `;
