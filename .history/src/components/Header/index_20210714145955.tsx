@@ -1,5 +1,7 @@
 import LogoImg from '../../assets/logo.svg'
 import { Container, Content } from './styles'
+import { useState } from 'react'
+import Modal from 'react-modal';
 
 interface HeaderProps{
 
@@ -12,7 +14,7 @@ export function Header({onOpenNewTransactionModal} :HeaderProps ) {
         <Container>
             <Content>
                 <img src={LogoImg} alt="dtMoney" />
-                <button type="button" onClick={onOpenNewTransactionModal}>
+                <button type="button" onClick={hadleOpenNewTransactionModal}>
                     Nova tranasação
                 </button>
             </Content>
