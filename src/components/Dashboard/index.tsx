@@ -1,5 +1,5 @@
 import { Sumary } from "../Sumary";
-import { TransactionsTable } from "../TransactionsTable";
+import { TransactionsTable } from "../transactionsTable";
 import { Container } from "./styles";
 
 
