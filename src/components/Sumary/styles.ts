@@ -29,7 +29,11 @@ div{
         font-size: 2rem;
         line-height: 3rem;
         font-weight: 500;
+     &.withdraw{
+            color: red;
+        }
     }
+
   
 }
 `;
