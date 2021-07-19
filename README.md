@@ -1,3 +1,3 @@
 <p align="center">
-  <img alt="jlt" src="./dtmoney.gif" width="80%">
+  <img alt="jlt" src="./detmoney.gif" width="80%">
 </p>
